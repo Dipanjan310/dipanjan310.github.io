@@ -165,3 +165,21 @@ a:hover { text-decoration: underline; }
   height: auto;
   border-radius: 5px;
 }
+
+.arxiv-button {
+  display: inline-block;
+  padding: 6px 13px;
+  border: 1.5px solid #4b9bc7;
+  border-radius: 6px;
+  color: #287da8;
+  font-weight: 600;
+  background: #f0f8ff;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.arxiv-button:hover {
+  background: #dceff9;
+  border-color: #287da8;
+  text-decoration: none;
+}
